@@ -3,12 +3,12 @@
 
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/nav_camera"
-            android:icon="@drawable/ic_menu_camera"
+            android:id="@+id/nav_invite"
+            android:icon="@drawable/ic_menu_tangan"
             android:title="Invite" />
         <item
-            android:id="@+id/nav_gallery"
-            android:icon="@drawable/ic_menu_gallery"
+            android:id="@+id/nav_withdraw"
+            android:icon="@drawable/ic_menu_withdraw"
             android:title="Withdraw" />
         <item
             android:id="@+id/nav_setting"
@@ -16,7 +16,7 @@
             android:title="Setting" />
         <item
             android:id="@+id/nav_history"
-            android:icon="@drawable/ic_menu_manage"
+            android:icon="@drawable/ic_history_black_24dp"
             android:title="History" />
     </group>
 
@@ -32,5 +32,10 @@
                 android:title="Send" />
         </menu>
     </item>
+
+    <item
+        android:id="@+id/nav_logout"
+        android:icon="@drawable/ic_logout"
+        android:title="History" />
 
 </menu>
